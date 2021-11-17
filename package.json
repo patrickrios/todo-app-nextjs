@@ -9,10 +9,15 @@
     "comit": "git-cz"
   },
   "dependencies": {
+    "@types/uuid": "^8.3.1",
     "commitizen": "^4.2.4",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^5.2.1",
     "next": "12.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.19.4",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^14.1.0",
