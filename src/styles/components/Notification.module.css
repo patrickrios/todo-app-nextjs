@@ -19,7 +19,7 @@
     color: var(--gray-30);
 }
 .notification button{
-    background: var(--gray-95);
+    background: var(--gray-98);
     border-radius:4px;
     padding:var(--size-8);
     border:none;
@@ -28,5 +28,5 @@
     cursor: pointer;
 }
 .notification button:hover{
-    background: var(--gray-90);
+    background: var(--gray-95);
 }
