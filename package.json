@@ -1,6 +1,6 @@
 {
   "name": "todo-app-next",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
