@@ -1,4 +1,5 @@
 import styles from "../../styles/components/Footer.module.css"
+import Link from "next/link"
 
 export default function Footer(){
     return(
@@ -7,14 +8,14 @@ export default function Footer(){
       <nav>
         <ul>
           <li>
-            <a href="/author">
+            <Link href="/author">
               <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/author-link_tjA9pExUts.svg?updatedAt=1636587867931" />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about">
+            <Link href="/about">
               <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/about-link_BXBjy6t64.svg?updatedAt=1636587867944" />
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

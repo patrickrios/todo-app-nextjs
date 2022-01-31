@@ -1,6 +1,4 @@
-import { useContext } from "react"
 import {v4 as uuid} from "uuid"
-import { ProjectContext } from "../contexts/ProjectContext"
 import Project from "./Project"
 
 export default class Task{
