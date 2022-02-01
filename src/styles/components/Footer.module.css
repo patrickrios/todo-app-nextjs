@@ -16,4 +16,5 @@
     color: var(--accent-blue-50);
     list-style: none;
     transform: scale(135%);
+    cursor:pointer;
 }
