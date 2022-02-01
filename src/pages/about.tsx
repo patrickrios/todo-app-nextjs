@@ -4,19 +4,7 @@ import Header from '../components/Header'
 import styles from '../styles/about.module.css'
 import Footer from '../components/Footer'
 
-interface FeatureProps{
-  text: string;
-  url: string;
-}
-
 const About: NextPage = () => {
-
-  const Feature = ({text, url} : FeatureProps) => (
-    <div className={styles.featureCard}>
-      <img src={url} />
-      <p>{text}</p>
-    </div>
-  )
   
   return (
     <div>
@@ -77,26 +65,6 @@ const About: NextPage = () => {
                 <p>Para o projeto de <b>design de interface</b> eu utilizei a ferramenta <b><a href="https://www.figma.com/">FIGMA</a></b>, na qual criei este <b>protótipo interativo</b>.</p>
               </div>
               <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_web_tech_xbG0aEh3UfI.png?updatedAt=1636583164512" alt="" />
-            </section>
-            
-            <section className={styles.contentBlock}>
-              <div className={styles.contentBlock}>
-                <h2>Funcionalidades</h2>
-                <div className={styles.features}>
-                  <Feature 
-                    text="organize suas tarefas em projetos" 
-                    url="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_organizing_projects_re_9p1k_1_XJRTIqTk9j.svg?updatedAt=1636578460886"
-                  />
-                  <Feature 
-                    text="Adicione tarefas para fazer"
-                    url="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_tasks_tod_do_C9Kg9AXq6M.svg?updatedAt=1636579748560"
-                  />
-                  <Feature 
-                    text="Tenha controle do seu trabalho"
-                    url="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_work_controller_jzhgIQ_47IC.svg?updatedAt=1636578460820"
-                  />
-                </div>
-              </div>
             </section>
 
       </main>
