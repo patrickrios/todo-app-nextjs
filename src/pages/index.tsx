@@ -2,10 +2,10 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useContext, useState } from 'react'
 import { NotificationContext } from '../contexts/NotificationContext'
-import Content from './components/HomeContent'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import ProjectModal from './components/ProjectModal'
+import Content from '../components/HomeContent'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import ProjectModal from '../components/ProjectModal'
 
 const Home: NextPage = () => {
 

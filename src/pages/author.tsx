@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from './components/Header'
+import Header from '../components/Header'
 import styles from '../styles/about.module.css'
 import { useContext } from 'react'
 import { NotificationContext } from '../contexts/NotificationContext'
-import SendEmail from './components/SendEmail'
-import Footer from './components/Footer'
+import SendEmail from '../components/SendEmail'
+import Footer from '../components/Footer'
 
 const Author: NextPage = () => {
 
