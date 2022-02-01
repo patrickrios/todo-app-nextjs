@@ -3,13 +3,14 @@
     border-radius:7px;
     margin-top: -70px;
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.07);
-    padding:0 2rem;
+    padding:2rem;
     margin-bottom:2rem;
 }
 
 .contentBlock,
 .contentRow{
     display: flex;
+    align-items: center;
 }
 .contentBlock{
     flex-direction: column;
@@ -17,7 +18,7 @@
     margin:0 0 6rem;
 }
 .contentBlock img{
-    max-height:min-content;
+    height: min-content;
 }
 .contentRow{
     flex-direction: column;
@@ -32,6 +33,10 @@
 .contentBlock h2{
     font-size: 1.75rem;
     color: var(--gray-30);
+    width:100%;
+}
+.contentRow h2{
+    margin-bottom:1rem;
 }
 .contentBlock p,
 .textList li{
@@ -41,8 +46,12 @@
 .contentBlock p{
     font-size:1.10rem;
 }
+.contentBlock b{
+    font-weight:normal;
+    color: var(--gray-25)
+}
 .textList li{
-    font-size:1.05rem;
+    font-size:1.10rem;
     list-style:none;
 }
 .contentBlock p a,
@@ -99,19 +108,19 @@
     transition: transform ease-in-out .2s;
 }
 .socialItem:hover{
-    transform: scale(130%);
+    transform: scale(140%);
 }
 .linkLinkedin{
-    left:130.14px;
-    top:85.36px;
+    left:132.14px;
+    top:60.36px;
 }
 .linkYoutube{
     left:178.82px;
-    top:139.84px;
+    top:115.84px;
 }
 .linkGithub{
     left:176.81px;
-    top:30.72px;
+    top:8.72px;
 }
 
 @media screen and (min-width:920px){

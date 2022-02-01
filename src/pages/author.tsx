@@ -25,15 +25,23 @@ const Author: NextPage = () => {
             <section className={styles.contentBlock}>
               <img className={styles.profilePicture} src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/MOSHED-2021-5-27-10-58-4_1_mqfuf7R1O.png?updatedAt=1636635922170" alt="" />
               <div className={styles.textBlock}>
-                <h2>Hello friend</h2>
-                <p>Eu sou o <b>Patrick</b>, tenho 27 anos e atualmente estou na minha jornada para conseguir um emprego como desenvolvedor de software.</p>
+                <h2>The author</h2>
+                <p>
+                  Hi there.
+                   I'm Patrick Rios, a <b>developer</b> based in Dourados-MS, Brazil.
+                   Nowdays, i'm in my journey to became a professional <b>web developer</b>, and this project is a part of it. 
+                   I've studied the modern web development almost two years, and you can check this and other projects in my <a href="https://patrickrios.github.io">portfolio page.</a>
+                </p>
               </div>
             </section>
 
             <section className={styles.contentBlock}>
               <div className={styles.textBlock}>
-                <h2>Com este projeto</h2>
-                <p>Meu objetivo foi aprimorar os meus conhecimentos e habilidades de programação frontend e UI Design. Testar os novos recuroso do Next.js 12</p>
+                <h2>With this project</h2>
+                <p>
+                  It was created as a <b>side project</b>, to improve my frontend programming and UI design <b>knowledge</b> and <b>skills</b>. 
+                    Checking and test the new features of Next.js 12 framework and i've tried to use conventional commits in git version control.
+                </p>
               </div>
               <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_developer_activity_bv83_CHQjsEGXJ.svg?updatedAt=1636637987039" alt="" />
             </section>
