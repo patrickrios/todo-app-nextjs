@@ -1,5 +1,5 @@
 import { createContext, useState } from "react"
-import TaskItem from "../pages/components/TaskItem"
+import TaskItem from "../components/TaskItem"
 import {ContextProps} from "./ProjectContext"
 
 interface ListContextDatas{

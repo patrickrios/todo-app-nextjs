@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import Notification from "../pages/components/Notification";
+import Notification from "../components/Notification";
 import { ContextProps } from "./ProjectContext"
 
 interface NotificationDatas{
@@ -22,7 +22,7 @@ export default function NotificationProvider({children} : ContextProps){
 
     const addNotification = (message: string) =>{
         addNotificationAndWait(message)
-        setTimeout(() => { setNotification(<></>) }, 8000);
+        setTimeout(() => { setNotification(<></>) }, 7000);
     }
 
     const clearNotification = () => setNotification(<></>)
