@@ -28,9 +28,9 @@ const Author: NextPage = () => {
                 <h2>The author</h2>
                 <p>
                   Hi there.
-                   I'm Patrick Rios, a <b>developer</b> based in Dourados-MS, Brazil.
-                   Nowdays, i'm in my journey to became a professional <b>web developer</b>, and this project is a part of it. 
-                   I've studied the modern web development almost two years, and you can check this and other projects in my <a href="https://patrickrios.github.io">portfolio page.</a>
+                   I&apos;m Patrick Rios, a <b>developer</b> based in Dourados-MS, Brazil.
+                   Nowdays, i&apos;m in my journey to became a professional <b>web developer</b>, and this project is a part of it. 
+                   I&apos;ve studied the modern web development almost two years, and you can check this and other projects in my <a href="https://patrickrios.github.io">portfolio page.</a>
                 </p>
               </div>
             </section>
@@ -40,7 +40,7 @@ const Author: NextPage = () => {
                 <h2>With this project</h2>
                 <p>
                   It was created as a <b>side project</b>, to improve my frontend programming and UI design <b>knowledge</b> and <b>skills</b>. 
-                    Checking and test the new features of Next.js 12 framework and i've tried to use conventional commits in git version control.
+                    Checking and test the new features of Next.js 12 framework and i&apos;ve tried to use conventional commits in git version control.
                 </p>
               </div>
               <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_developer_activity_bv83_CHQjsEGXJ.svg?updatedAt=1636637987039" alt="" />
