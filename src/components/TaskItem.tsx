@@ -13,7 +13,7 @@ interface TaskItemProps{
 
 export default function TaskItem({task } : TaskItemProps ){
 
-    //const {text, id, done} = task
+    const {text, id, done} = task
     const { moveItem, removeItem } = useContext(ListContext)
     const { currentProject } = useContext(ProjectContext)
     const { addNotification } = useContext(NotificationContext)
@@ -25,14 +25,14 @@ export default function TaskItem({task } : TaskItemProps ){
     const checkIcon = "https://ik.imagekit.io/lrjseyuxi3m/todoapp/done-icon_6MGPqT2l9I.svg?updatedAt=1636031124073"
     
     const toggleStatus = () => {
-        Task.toggleStatus(currentProject, task.id)
-        moveItem(task.id, task.done)
-        task.done ? addNotification("Task undone") : addNotification("Task done")
+        Task.toggleStatus(currentProject, id)
+        moveItem(id, done)
+        done ? addNotification("Task undone") : addNotification("Task done")
     }
 
     const deleteThis = () =>{
-        Task.deleteById(task.id)
-        removeItem(task.id, task.done)
+        Task.deleteById(id)
+        removeItem(id,done)
         addNotification("Task removed")
     }
 
@@ -41,12 +41,12 @@ export default function TaskItem({task } : TaskItemProps ){
             initial={{opacity:0}}
             animate={{opacity:1}}
             transition={{duration:0.25}}
-            className={`${styles.taskItem} ${task.done && styles.taskItemDone}`}
+            className={`${styles.taskItem} ${done && styles.taskItemDone}`}
         >
             <button className={styles.taskCheckButton} type="button" onClick={toggleStatus}>
-                {task.done && <img src={checkIcon} alt=""/>}
+                {done && <img src={checkIcon} alt=""/>}
             </button>
-            <p>{task.text}</p>
+            <p>{text}</p>
             {
                 options &&
                     <DeleteItem deleteAction={deleteThis} cancelAction={toggleOptions} />
